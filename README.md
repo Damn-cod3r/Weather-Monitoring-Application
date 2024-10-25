@@ -14,8 +14,6 @@ This project demonstrates how to build a Django-based weather monitoring applica
 3. **Storing Weather Data**
 4. **Scheduling Data Fetching with Background Tasks**
 5. **Admin Setup**
-6. **Troubleshooting Common Issues**
-
 ---
 
 ### 1. Project Setup
