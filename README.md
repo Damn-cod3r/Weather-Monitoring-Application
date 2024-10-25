@@ -228,7 +228,7 @@ python manage.py process_tasks
 python manage.py shell
 # Inside shell
 from weather.tasks import update_weather_data
-update_weather_data(repeat=60)
+update_weather_data(repeat=300)
 
 # 6. Run the Django server
 python manage.py runserver
