@@ -6,7 +6,27 @@
 This project demonstrates how to build a Django-based weather monitoring application with **real-time data processing** and **aggregate calculations** for daily weather summaries. The application fetches data from the OpenWeatherMap API, stores it in a database, computes daily summaries, and visualizes trends.
 
 ---
-
+```bash
+SkySense/
+│
+├── manage.py                   # Django's command-line utility for administrative tasks
+├── SkySense/                   # Main project directory
+│   ├── __init__.py
+│   ├── settings.py             # Project settings including database configuration
+│   ├── urls.py                 # URL declarations for the project
+│   └── wsgi.py                 # WSGI configuration for deploying the application
+│
+└── DataStream/                 # Django application for weather monitoring
+    ├── __init__.py
+    ├── admin.py                # Admin configurations for model management
+    ├── apps.py                 # Application configuration
+    ├── models.py               # Database models
+    ├── tests.py                # Automated tests for the application
+    ├── urls.py                 # URL declarations for the weather app
+    ├── views.py                # View functions to handle requests and responses
+    ├── utils.py                # Utility functions for data fetching and aggregation
+    └── tasks.py                # Background tasks for fetching data and aggregating
+```
 ### Table of Contents
 
 1. **Project Setup**
