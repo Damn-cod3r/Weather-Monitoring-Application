@@ -110,6 +110,10 @@ class DailyWeatherSummary(models.Model):
     def __str__(self):
         return f"Summary for {self.date} - Avg: {self.avg_temp}°C"
 ```
+### DailyWeatherSummary
+![image](https://github.com/user-attachments/assets/ffe527ad-e885-4897-ae8b-044c9a4a0876)
+### WeatherData
+![image](https://github.com/user-attachments/assets/78a9a39d-fa2e-4948-a19a-bace4df00b3f)
 
 Apply migrations for the new models:
 
@@ -194,7 +198,8 @@ python manage.py runserver
 
 Access the admin interface at `http://127.0.0.1:8000/admin`.
 
-
+USERNAME: cham
+PASSWORD: 1234
 
 
 
